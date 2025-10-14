@@ -1,3 +1,4 @@
+# Python ignores
 __pycache__/
 *.pyc
-.env
+*.pyo
