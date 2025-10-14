@@ -1,0 +1,8 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>Lab2</RootNamespace>
+    <AssemblyName>lab2v7</AssemblyName>
+  </PropertyGroup>
+</Project>
