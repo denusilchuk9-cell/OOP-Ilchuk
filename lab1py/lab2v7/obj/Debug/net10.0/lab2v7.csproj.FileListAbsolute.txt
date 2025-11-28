@@ -1,0 +1,15 @@
+C:\Users\Dream\Desktop\lab1\OOP-lab2v7-Ilchuk\lab2v7\bin\Debug\net10.0\lab2v7.exe
+C:\Users\Dream\Desktop\lab1\OOP-lab2v7-Ilchuk\lab2v7\bin\Debug\net10.0\lab2v7.deps.json
+C:\Users\Dream\Desktop\lab1\OOP-lab2v7-Ilchuk\lab2v7\bin\Debug\net10.0\lab2v7.runtimeconfig.json
+C:\Users\Dream\Desktop\lab1\OOP-lab2v7-Ilchuk\lab2v7\bin\Debug\net10.0\lab2v7.dll
+C:\Users\Dream\Desktop\lab1\OOP-lab2v7-Ilchuk\lab2v7\bin\Debug\net10.0\lab2v7.pdb
+C:\Users\Dream\Desktop\lab1\OOP-lab2v7-Ilchuk\lab2v7\obj\Debug\net10.0\lab2v7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dream\Desktop\lab1\OOP-lab2v7-Ilchuk\lab2v7\obj\Debug\net10.0\lab2v7.AssemblyInfoInputs.cache
+C:\Users\Dream\Desktop\lab1\OOP-lab2v7-Ilchuk\lab2v7\obj\Debug\net10.0\lab2v7.AssemblyInfo.cs
+C:\Users\Dream\Desktop\lab1\OOP-lab2v7-Ilchuk\lab2v7\obj\Debug\net10.0\lab2v7.csproj.CoreCompileInputs.cache
+C:\Users\Dream\Desktop\lab1\OOP-lab2v7-Ilchuk\lab2v7\obj\Debug\net10.0\lab2v7.sourcelink.json
+C:\Users\Dream\Desktop\lab1\OOP-lab2v7-Ilchuk\lab2v7\obj\Debug\net10.0\lab2v7.dll
+C:\Users\Dream\Desktop\lab1\OOP-lab2v7-Ilchuk\lab2v7\obj\Debug\net10.0\refint\lab2v7.dll
+C:\Users\Dream\Desktop\lab1\OOP-lab2v7-Ilchuk\lab2v7\obj\Debug\net10.0\lab2v7.pdb
+C:\Users\Dream\Desktop\lab1\OOP-lab2v7-Ilchuk\lab2v7\obj\Debug\net10.0\lab2v7.genruntimeconfig.cache
+C:\Users\Dream\Desktop\lab1\OOP-lab2v7-Ilchuk\lab2v7\obj\Debug\net10.0\ref\lab2v7.dll
