@@ -1,2 +1,0 @@
-C:\Users\Dream\Desktop\lab1\OOP-Ilchuk\lab6v7\lab6v7\obj\Debug\lab6v7.csproj.AssemblyReference.cache
-C:\Users\Dream\Desktop\lab1\OOP-Ilchuk\lab6v7\lab6v7\obj\Debug\lab6v7.csproj.CoreCompileInputs.cache
