@@ -25,7 +25,7 @@ public static class RetryHelper
                 }
 
                 Console.WriteLine($"Retryable failure on attempt {attempt}: {ex.Message}");
-                // Експоненційна затримка
+                // Експоненційна затримка: initialDelay * 2^(attempt-1)
                 TimeSpan currentDelay = TimeSpan.FromTicks(delay.Ticks * (long)Math.Pow(2, attempt - 1));
                 Thread.Sleep(currentDelay);
             }
