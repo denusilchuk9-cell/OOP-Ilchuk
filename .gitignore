@@ -1,25 +1,6 @@
-# .NET Build artifacts
+﻿.vs/
 bin/
 obj/
-
-# VS Code
-.vscode/
 *.user
 *.suo
-
-# User-specific files
-*.rsuser
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
-# NuGet
-packages/
-*.nupkg
-
-# Other
-[Dd]ebug/
-[Rr]elease/
-x64/
-x86/
+*.cache
