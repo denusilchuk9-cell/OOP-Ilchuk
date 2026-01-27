@@ -20,6 +20,7 @@ public class Penguin : IBird { }
 public class Sparrow : IBird, IFlyingBird { }
 
 2. Файловий процесор
+   
 public class FileWriter {
     public virtual void Write(string data) {
         // Записує дані
