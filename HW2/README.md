@@ -1,6 +1,8 @@
 Порушення LSP - приклади
+
 1. Птахи (класичне порушення)
-csharp
+
+
 public class Bird {
     public virtual void Fly() { }  // ВСІ птахи літають?
 }
@@ -33,8 +35,10 @@ public class ReadOnlyFileWriter : FileWriter {
 
 public interface IFileWriter { void Write(string data); }
 public interface IFileReader { string Read(); }
+
 3. Колекція з обмеженням
-csharp
+
+
 public class Collection {
     public virtual void Add(object item) { }
 }
@@ -54,6 +58,7 @@ public class FixedSizeCollection {
         // Повертає true/false замість винятку
     }
 }
+
 Коротко про LSP:
 Правило: Якщо клас B успадкований від A, то B має робити все те саме, що й A
 Не можна: Викидати нові винятки, повертати null замість значення, слабшати умови
