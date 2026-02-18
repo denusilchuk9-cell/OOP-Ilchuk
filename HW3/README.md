@@ -1,55 +1,16 @@
+1. Принцип розділення інтерфейсів (ISP)
+У проєкті було створено "товстий" інтерфейс IWorker, який містив сім методів: Work, Eat, Sleep, Code, Design, Test та Deploy. Це призвело до того, що клас Programmer був змушений реалізовувати всі ці методи, хоча йому потрібні були лише чотири з них. Методи Design, Test та Deploy довелося реалізувати з викиданням винятків, що є явною ознакою поганого дизайну. Такий підхід порушує принцип розділення інтерфейсів, оскільки клас залежить від методів, які він не використовує.
 
-## 1. Принцип розділення інтерфейсів (ISP)
+Вирішенням проблеми стало розділення великого інтерфейсу на декілька вузьких, спеціалізованих інтерфейсів: IWorkable, IEatable, ISleepable, ICodeable та ITestable. Тепер клас Programmer реалізує лише ті інтерфейси, які йому дійсно потрібні, а клас Tester, наприклад, реалізує IWorkable, IEatable, ISleepable та ITestable. Це дозволяє уникнути ситуацій, коли класи змушені реалізовувати непотрібні методи.
 
-**Порушення:** Інтерфейс IWorker містить 7 методів, через що клас Programmer змушений реалізовувати непотрібні методи Design(), Test(), Deploy() з викиданням винятків.
-
-public interface IWorker { void Work(); void Eat(); void Sleep(); void Code(); void Design(); void Test(); void Deploy(); }
-public class Programmer : IWorker { 
-    public void Work() => Console.WriteLine("Working");
-    public void Eat() => Console.WriteLine("Eating");
-    public void Sleep() => Console.WriteLine("Sleeping");
-    public void Code() => Console.WriteLine("Coding");
-    public void Design() => throw new NotImplementedException();
-    public void Test() => throw new NotImplementedException();
-    public void Deploy() => throw new NotImplementedException();
-}
-Рішення: Розділяємо на вузькі інтерфейси IWorkable, IEatable, ISleepable, ICodeable, ITestable.
-
-public interface IWorkable { void Work(); }
-public interface IEatable { void Eat(); }
-public interface ISleepable { void Sleep(); }
-public interface ICodeable { void Code(); }
-public interface ITestable { void Test(); }
-
-public class Programmer : IWorkable, IEatable, ISleepable, ICodeable {
-    public void Work() => Console.WriteLine("Working");
-    public void Eat() => Console.WriteLine("Eating");
-    public void Sleep() => Console.WriteLine("Sleeping");
-    public void Code() => Console.WriteLine("Coding");
-}
 2. Принцип інверсії залежностей (DIP)
-Застосування: Високорівневий модуль UserService залежить від абстракції ILogger, а не від конкретних класів.
+Для демонстрації принципу інверсії залежностей було створено абстракцію ILogger з методом Log. Дві конкретні реалізації цього інтерфейсу - ConsoleLogger та FileLogger - виконують логування у консоль та у файл відповідно. Високорівневий модуль UserService отримує логер через конструктор, залежачи виключно від абстракції ILogger, а не від конкретних реалізацій.
 
-public interface ILogger { void Log(string message); }
-public class ConsoleLogger : ILogger { public void Log(string message) => Console.WriteLine($"LOG: {message}"); }
-public class FileLogger : ILogger { public void Log(string message) => File.AppendAllText("log.txt", $"{message}\n"); }
+Застосування DIP через Dependency Injection дає кілька важливих переваг. По-перше, це гнучкість - можна легко замінити одну реалізацію логера на іншу без зміни коду UserService. По-друге, це тестованість - при написанні юніт-тестів можна використовувати mock-об'єкти замість реальних логерів. По-третє, досягається слабке зв'язування між компонентами системи, що робить код більш підтримуваним.
 
-public class UserService {
-    private readonly ILogger _logger;
-    public UserService(ILogger logger) { _logger = logger; }
-    public void CreateUser(string name) { _logger.Log($"Creating user: {name}"); Console.WriteLine($"User {name} created!"); }
-}
-Переваги DIP: Гнучкість (легка заміна логера), тестованість (mock-об'єкти), слабке зв'язування.
+3. Вплив ISP на Dependency Injection та тестування
+Вузькі інтерфейси, створені відповідно до принципу ISP, значно полегшують застосування Dependency Injection та тестування. Коли кожен інтерфейс має чітко визначену відповідальність, стає простіше зрозуміти, які саме залежності потрібні класу. Це дозволяє створювати більш точні та зрозумілі конструктори.
 
-3. Як ISP сприяє кращому DI та тестуванню
-Вузькі інтерфейси дозволяють точно визначити залежності класу, що полегшує створення mock-об'єктів для тестування та дозволяє ін'єктувати лише необхідні компоненти.
+При тестуванні класів з вузькими інтерфейсами набагато легше створювати mock-об'єкти, оскільки кожен інтерфейс містить невелику кількість методів. Наприклад, якщо клас залежить тільки від IDataReader та IDataFormatter, то в тестах можна легко замокати саме ці два невеликі інтерфейси, а не великий "товстий" інтерфейс з багатьма методами.
 
-public class ReportService {
-    private readonly IDataReader _reader;
-    private readonly IDataFormatter _formatter;
-    public ReportService(IDataReader reader, IDataFormatter formatter) {
-        _reader = reader;
-        _formatter = formatter;
-    }
-}
-Висновок: Поєднання ISP та DIP робить код гнучким, розширюваним та легким у тестуванні.
+Таким чином, поєднання принципів ISP та DIP дозволяє створюти гнучку, розширювану архітектуру, яка легко піддається тестуванню та модифікації. Код стає чистішим, зрозумілішим і більш відповідає принципам об'єктно-орієнтованого програмування.
