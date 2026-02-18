@@ -32,7 +32,7 @@ namespace lab22v7
 
         public override void ChangePassword(string newPassword)
         {
-            throw new UnauthorizedAccessException("Guest users cannot change passwords!");
+            throw new InvalidOperationException("Guest users cannot change passwords!");
         }
 
         public override void DisplayInfo()
@@ -47,17 +47,8 @@ namespace lab22v7
         {
             Console.WriteLine($"\nChanging password for user...");
             user.DisplayInfo();
-
-            try
-            {
-                user.ChangePassword(newPassword);
-                Console.WriteLine("Password update successful!");
-            }
-            catch (UnauthorizedAccessException ex)
-            {
-                Console.WriteLine($"ERROR: {ex.Message}");
-                Console.WriteLine("Password update failed!");
-            }
+            user.ChangePassword(newPassword);
+            Console.WriteLine("Password update successful!");
         }
     }
 
@@ -142,13 +133,33 @@ namespace lab22v7
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("=== LSP VIOLATION ===");
+            Console.WriteLine("=================================");
+            Console.WriteLine("Лабораторна робота №22");
+            Console.WriteLine("Варіант 7: User & GuestUser");
+            Console.WriteLine("=================================");
+
+            Console.WriteLine("\n=== LSP VIOLATION ===");
 
             User regular = new User("john", "john@example.com");
             User guest = new GuestUser("guest");
 
-            UserManager.UpdateUserPassword(regular, "pass123");
-            UserManager.UpdateUserPassword(guest, "pass456");
+            try
+            {
+                UserManager.UpdateUserPassword(regular, "pass123");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+
+            try
+            {
+                UserManager.UpdateUserPassword(guest, "pass456");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
 
             Console.WriteLine("\n=== LSP SOLUTION ===");
 
@@ -157,8 +168,11 @@ namespace lab22v7
 
             NewUserManager.ProcessUser(regularUser, "secure789");
             NewUserManager.ProcessUser(guestAccount, "try000");
+            NewUserManager.ProcessUser(guestAccount);
 
-            Console.WriteLine("\n=== DEMO COMPLETE ===");
+            Console.WriteLine("\n=================================");
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
         }
     }
 }
