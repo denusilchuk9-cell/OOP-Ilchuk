@@ -40,15 +40,15 @@
 
 | Сценарій | Очікуваний результат | Фактичний результат | Статус |
 |----------|---------------------|---------------------|--------|
-| Strategy Change At Runtime | Коректне виконання всіх стратегій | PASS | |
-| Observer Subscribers | 2 сповіщення, баланс 1300 | PASS |  |
-| Strategy + Observer Together | 2 лога, баланс 1700 | PASS | |
-| Multiple Observers | Всі спостерігачі отримали сповіщення | PASS |  |
-| Strategy Chain | Всі 3 операції виконані | PASS |  |
-| Withdraw More Than Balance | Повернення помилки Insufficient funds | PASS |  |
-| Invalid Amount | Повернення помилки Invalid amount | PASS |  |
-| Observer Detach | Логер не отримує сповіщень після відписки | PASS |  |
-| Strategy Chain with Balance | Баланс = 1500 після Deposit(1000)+Withdraw(200)+Transfer(300) | PASS |  |
+| Strategy Change At Runtime | Коректне виконання всіх стратегій | PASS | ✅ |
+| Observer Subscribers | 2 сповіщення, баланс 1300 | PASS | ✅ |
+| Strategy + Observer Together | 2 лога, баланс 1700 | PASS | ✅ |
+| Multiple Observers | Всі спостерігачі отримали сповіщення | PASS | ✅ |
+| Strategy Chain | Всі 3 операції виконані | PASS | ✅ |
+| Withdraw More Than Balance | Повернення помилки Insufficient funds | PASS | ✅ |
+| Invalid Amount | Повернення помилки Invalid amount | PASS | ✅ |
+| Observer Detach | Логер не отримує сповіщень після відписки | PASS | ✅ |
+| Strategy Chain with Balance | Баланс = 1500 після Deposit(1000)+Withdraw(200)+Transfer(300) | PASS | ✅ |
 
 ---
 
@@ -56,10 +56,10 @@
 
 | Компонент | Перевірка | Результат |
 |-----------|-----------|-----------|
-| Factory Method | Створення стратегій через конструктор/SetStrategy |  Коректно |
+| Factory Method | Створення стратегій через конструктор/SetStrategy | ✅ Коректно |
 | Singleton | Не використовувався в цій системі | N/A |
-| Observer | Підписка/відписка спостерігачів, отримання сповіщень |  Коректно |
-| Strategy | Зміна стратегій у runtime через SetStrategy |  Коректно |
+| Observer | Підписка/відписка спостерігачів, отримання сповіщень | ✅ Коректно |
+| Strategy | Зміна стратегій у runtime через SetStrategy | ✅ Коректно |
 
 ---
 
