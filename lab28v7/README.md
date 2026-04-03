@@ -112,5 +112,7 @@ lab28v7/
    - UI/UX design (Priority: 2)
 
 ### Вивід програми
+<img width="1319" height="955" alt="image" src="https://github.com/user-attachments/assets/7baef2cd-4555-44f3-a698-bee13f1f40e1" />
+
 <img width="663" height="89" alt="image" src="https://github.com/user-attachments/assets/53acc862-74f5-435f-ab63-f1a684940756" />
 
