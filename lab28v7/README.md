@@ -113,4 +113,4 @@ lab28v7/
 
 ### Вивід програми
 <img width="663" height="89" alt="image" src="https://github.com/user-attachments/assets/53acc862-74f5-435f-ab63-f1a684940756" />
-![Uploading image.png…]()
+
