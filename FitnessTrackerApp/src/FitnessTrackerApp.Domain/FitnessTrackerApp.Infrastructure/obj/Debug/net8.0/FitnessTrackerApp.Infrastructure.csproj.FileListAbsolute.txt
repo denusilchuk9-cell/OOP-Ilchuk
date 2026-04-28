@@ -1,0 +1,15 @@
+C:\Users\Dream\Desktop\віфвіф\fitnestracker\FitnessTrackerApp\src\FitnessTrackerApp.Infrastructure\bin\Debug\net8.0\FitnessTrackerApp.Infrastructure.deps.json
+C:\Users\Dream\Desktop\віфвіф\fitnestracker\FitnessTrackerApp\src\FitnessTrackerApp.Infrastructure\bin\Debug\net8.0\FitnessTrackerApp.Infrastructure.dll
+C:\Users\Dream\Desktop\віфвіф\fitnestracker\FitnessTrackerApp\src\FitnessTrackerApp.Infrastructure\bin\Debug\net8.0\FitnessTrackerApp.Infrastructure.pdb
+C:\Users\Dream\Desktop\віфвіф\fitnestracker\FitnessTrackerApp\src\FitnessTrackerApp.Infrastructure\bin\Debug\net8.0\FitnessTrackerApp.Domain.dll
+C:\Users\Dream\Desktop\віфвіф\fitnestracker\FitnessTrackerApp\src\FitnessTrackerApp.Infrastructure\bin\Debug\net8.0\FitnessTrackerApp.Domain.pdb
+C:\Users\Dream\Desktop\віфвіф\fitnestracker\FitnessTrackerApp\src\FitnessTrackerApp.Infrastructure\obj\Debug\net8.0\FitnessTrackerApp.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Dream\Desktop\віфвіф\fitnestracker\FitnessTrackerApp\src\FitnessTrackerApp.Infrastructure\obj\Debug\net8.0\FitnessTrackerApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dream\Desktop\віфвіф\fitnestracker\FitnessTrackerApp\src\FitnessTrackerApp.Infrastructure\obj\Debug\net8.0\FitnessTrackerApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Dream\Desktop\віфвіф\fitnestracker\FitnessTrackerApp\src\FitnessTrackerApp.Infrastructure\obj\Debug\net8.0\FitnessTrackerApp.Infrastructure.AssemblyInfo.cs
+C:\Users\Dream\Desktop\віфвіф\fitnestracker\FitnessTrackerApp\src\FitnessTrackerApp.Infrastructure\obj\Debug\net8.0\FitnessTrackerApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Dream\Desktop\віфвіф\fitnestracker\FitnessTrackerApp\src\FitnessTrackerApp.Infrastructure\obj\Debug\net8.0\FitnessT.9119B7EC.Up2Date
+C:\Users\Dream\Desktop\віфвіф\fitnestracker\FitnessTrackerApp\src\FitnessTrackerApp.Infrastructure\obj\Debug\net8.0\FitnessTrackerApp.Infrastructure.dll
+C:\Users\Dream\Desktop\віфвіф\fitnestracker\FitnessTrackerApp\src\FitnessTrackerApp.Infrastructure\obj\Debug\net8.0\refint\FitnessTrackerApp.Infrastructure.dll
+C:\Users\Dream\Desktop\віфвіф\fitnestracker\FitnessTrackerApp\src\FitnessTrackerApp.Infrastructure\obj\Debug\net8.0\FitnessTrackerApp.Infrastructure.pdb
+C:\Users\Dream\Desktop\віфвіф\fitnestracker\FitnessTrackerApp\src\FitnessTrackerApp.Infrastructure\obj\Debug\net8.0\ref\FitnessTrackerApp.Infrastructure.dll
