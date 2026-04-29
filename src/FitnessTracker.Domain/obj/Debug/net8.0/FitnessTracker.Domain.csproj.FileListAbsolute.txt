@@ -1,0 +1,11 @@
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Domain\bin\Debug\net8.0\FitnessTracker.Domain.deps.json
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Domain\bin\Debug\net8.0\FitnessTracker.Domain.dll
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Domain\bin\Debug\net8.0\FitnessTracker.Domain.pdb
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Domain\obj\Debug\net8.0\FitnessTracker.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Domain\obj\Debug\net8.0\FitnessTracker.Domain.AssemblyInfoInputs.cache
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Domain\obj\Debug\net8.0\FitnessTracker.Domain.AssemblyInfo.cs
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Domain\obj\Debug\net8.0\FitnessTracker.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Domain\obj\Debug\net8.0\FitnessTracker.Domain.dll
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Domain\obj\Debug\net8.0\refint\FitnessTracker.Domain.dll
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Domain\obj\Debug\net8.0\FitnessTracker.Domain.pdb
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Domain\obj\Debug\net8.0\ref\FitnessTracker.Domain.dll

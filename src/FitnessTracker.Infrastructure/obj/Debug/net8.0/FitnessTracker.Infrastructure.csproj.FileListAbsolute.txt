@@ -1,0 +1,15 @@
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Infrastructure\bin\Debug\net8.0\FitnessTracker.Infrastructure.deps.json
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Infrastructure\bin\Debug\net8.0\FitnessTracker.Infrastructure.dll
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Infrastructure\bin\Debug\net8.0\FitnessTracker.Infrastructure.pdb
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Infrastructure\bin\Debug\net8.0\FitnessTracker.Domain.dll
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Infrastructure\bin\Debug\net8.0\FitnessTracker.Domain.pdb
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Infrastructure\obj\Debug\net8.0\FitnessTracker.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Infrastructure\obj\Debug\net8.0\FitnessTracker.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Infrastructure\obj\Debug\net8.0\FitnessTracker.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Infrastructure\obj\Debug\net8.0\FitnessTracker.Infrastructure.AssemblyInfo.cs
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Infrastructure\obj\Debug\net8.0\FitnessTracker.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Infrastructure\obj\Debug\net8.0\FitnessT.BE40CA3A.Up2Date
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Infrastructure\obj\Debug\net8.0\FitnessTracker.Infrastructure.dll
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Infrastructure\obj\Debug\net8.0\refint\FitnessTracker.Infrastructure.dll
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Infrastructure\obj\Debug\net8.0\FitnessTracker.Infrastructure.pdb
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Infrastructure\obj\Debug\net8.0\ref\FitnessTracker.Infrastructure.dll

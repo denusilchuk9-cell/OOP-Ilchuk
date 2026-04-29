@@ -1,0 +1,15 @@
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Application\bin\Debug\net8.0\FitnessTracker.Application.deps.json
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Application\bin\Debug\net8.0\FitnessTracker.Application.dll
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Application\bin\Debug\net8.0\FitnessTracker.Application.pdb
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Application\bin\Debug\net8.0\FitnessTracker.Domain.dll
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Application\bin\Debug\net8.0\FitnessTracker.Domain.pdb
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Application\obj\Debug\net8.0\FitnessTracker.Application.csproj.AssemblyReference.cache
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Application\obj\Debug\net8.0\FitnessTracker.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Application\obj\Debug\net8.0\FitnessTracker.Application.AssemblyInfoInputs.cache
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Application\obj\Debug\net8.0\FitnessTracker.Application.AssemblyInfo.cs
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Application\obj\Debug\net8.0\FitnessTracker.Application.csproj.CoreCompileInputs.cache
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Application\obj\Debug\net8.0\FitnessT.BE9B4996.Up2Date
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Application\obj\Debug\net8.0\FitnessTracker.Application.dll
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Application\obj\Debug\net8.0\refint\FitnessTracker.Application.dll
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Application\obj\Debug\net8.0\FitnessTracker.Application.pdb
+C:\Users\Dream\Desktop\віфвіф\FitnessTrackerClean\src\FitnessTracker.Application\obj\Debug\net8.0\ref\FitnessTracker.Application.dll
