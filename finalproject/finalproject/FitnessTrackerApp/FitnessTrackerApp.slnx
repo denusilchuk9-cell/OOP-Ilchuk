@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/FitnessTrackerApp.Application/FitnessTrackerApp.Application.csproj" />
+    <Project Path="src/FitnessTrackerApp.ConsoleUI/FitnessTrackerApp.ConsoleUI.csproj" />
+    <Project Path="src/FitnessTrackerApp.Domain/FitnessTrackerApp.Domain.csproj" />
+    <Project Path="src/FitnessTrackerApp.Infrastructure/FitnessTrackerApp.Infrastructure.csproj" />
+  </Folder>
+</Solution>
