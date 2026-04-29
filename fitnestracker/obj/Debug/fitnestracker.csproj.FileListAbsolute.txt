@@ -1,0 +1,7 @@
+C:\Users\Dream\Desktop\віфвіф\fitnestracker\fitnestracker\bin\Debug\fitnestracker.exe.config
+C:\Users\Dream\Desktop\віфвіф\fitnestracker\fitnestracker\bin\Debug\fitnestracker.exe
+C:\Users\Dream\Desktop\віфвіф\fitnestracker\fitnestracker\bin\Debug\fitnestracker.pdb
+C:\Users\Dream\Desktop\віфвіф\fitnestracker\fitnestracker\obj\Debug\fitnestracker.csproj.AssemblyReference.cache
+C:\Users\Dream\Desktop\віфвіф\fitnestracker\fitnestracker\obj\Debug\fitnestracker.csproj.CoreCompileInputs.cache
+C:\Users\Dream\Desktop\віфвіф\fitnestracker\fitnestracker\obj\Debug\fitnestracker.exe
+C:\Users\Dream\Desktop\віфвіф\fitnestracker\fitnestracker\obj\Debug\fitnestracker.pdb
